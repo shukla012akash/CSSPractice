@@ -1,0 +1,61 @@
+h1, p, div {
+    color: green;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    height: 30px;
+}
+
+/*Styling the list*/
+
+ul.a {
+    list-style-type: circle;
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+
+  /*coloring the list*/
+ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }

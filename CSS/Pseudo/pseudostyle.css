@@ -1,0 +1,25 @@
+/*When cursor move to the paragraph*/
+div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  div:hover {
+    background-color: blue;
+  }
+
+
+  p {
+    display: none;
+    background-color:lightgreen;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+
+
+  

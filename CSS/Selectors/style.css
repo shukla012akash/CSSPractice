@@ -1,0 +1,96 @@
+
+/*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+h1 {
+    color:brown
+}
+p {
+    color: cornflowerblue;
+}
+
+/* id selector*/
+#error {
+    color: red;
+}
+
+/*  class selector*/
+
+.generic {
+    color:blueviolet
+}
+.blue {
+    color: blue;
+}
+
+/* Descendant Selector*/
+h1 em {
+    color: chocolate;
+}
+ul.Menu {
+    padding:0;
+    list-style: none;
+}
+ul.Menu li div.divclass {
+    color: aqua;
+}
+ul.Menu div.divclass {
+    color: chartreuse;
+}
+ul.Menu li {
+    display: inline;
+}
+ul.Menu li a{
+    margin: 30px;
+    text-decoration: blueviolet;
+}
+
+/* Group Selector*/
+h1, p, div {
+    color: green;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    height: 30px;
+}
+
+/* Child Selector*/
+div>h1{
+    background-color: black;
+}
+div>h2{
+    background-color: blue;
+}
+div>h3{
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
